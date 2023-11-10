@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Martian Mono', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Sometype Mono', monospace;
+}
+.head{
+  padding: 50px 100px 0 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: #191919 40%;
+  justify-content: center;
+}
+.search{
+  width: 500px;
+  border: 1px #979797 solid;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.search_img{
+  position: relative;
+  right: 90%;
+  width: 20px;
+  height: 20px;
+}
+.search_img:hover{
+  overflow: hidden;
+}
+.search input {
+  width: 462px;
+  left: 2%;
+  padding: 4px;
+  border-radius: 7px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  background: gray;
+  color: white;
+  position: relative;;
+}
+.navigation{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex: 1;
+  border: 1px #979797 solid;
+  gap: 29px;
+  padding: 0 20px 0 0;;
+}
+.footer{
+  background: #191919;
+  height: 100px;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+}
+.footer input {
+  background: gray;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 70.5%;
+  height: 50%;
+  justify-content: flex-end;
+  display: flex;
+}
+input::placeholder{
+  color: white;
+}
+.chat_section{
+  display: flex;
+  padding: 100px;
+}
+.people{
+  border: 1px solid #979797;
+  height: 100%;
+  width: 500px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.people p {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.chat{
+  flex: 1;
+  border: 1px solid #979797;
+  height: 100%;
+  overflow-y: scroll;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat p {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.user{
+  width: 30px;
+  height: 30px;
+}
+.call{
+  width: 35px;
+  height: 35px;
+}
+.search_message{
+  width: 30px;
+  height: 30px;
+}
+.iconMenu{
+  width: 30px;
+  height: 30px; 
+}
+.file{
+  width: 30px;
+  height: 30px; 
+}
